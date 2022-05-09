@@ -26,8 +26,6 @@ def parse_re(input_re: str):
     finally:
         return return_dict
 
-"""## 마지막 시도"""
-
 import pandas as pd
 from pandas.io.json import json_normalize
 import requests
